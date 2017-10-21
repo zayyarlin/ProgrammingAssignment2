@@ -1,3 +1,6 @@
+## The two functions allow us to cache the result of 
+## potentially compute heavy 'solve' function
+
 ## Wraps the matrix object with a list containing
 ## it's inverse value
 makeCacheMatrix <- function(x = matrix()) {
